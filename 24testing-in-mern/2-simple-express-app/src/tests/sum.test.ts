@@ -8,6 +8,7 @@ describe("POST /sum", () => {
           a: 1,
           b: 2
         });
+        // console.log(res);
         expect(res.statusCode).toBe(200);
         expect(res.body.answer).toBe(3);
       });
